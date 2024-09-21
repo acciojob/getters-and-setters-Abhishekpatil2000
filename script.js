@@ -1,9 +1,16 @@
 //complete this code
 class Person {
 	constructor(name,age){
-		
+		this.name=name;
+		this.age=age;
 	}
+
+	get identity(){
+		return  ${this.name}
+	}
+	set yOld(age)
 }
+
 
 class Student extends Person {
 	
