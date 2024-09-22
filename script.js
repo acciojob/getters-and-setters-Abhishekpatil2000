@@ -28,7 +28,7 @@ class Teacher extends Person {
 }
 
 const person=new Person ("abhi",33);
-console.log(person.name);
+console.log(person._name);
 console.log(person._age);
 person.grown=20;
 console.log(person._age);
