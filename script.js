@@ -8,7 +8,9 @@ class Person {
 	get identity(){
 		return  ${this.name}
 	}
-	set yOld(age)
+	set yOld(age){
+		this.age=age;
+	}
 }
 
 
