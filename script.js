@@ -5,10 +5,10 @@ class Person {
 		this.age=age;
 	}
 
-	get name(){
+	get identity(){
 		return  `${this.name}`;
 	}
-	set age(age){
+	set grown(age){
 		this.age=age;
 	}
 }
