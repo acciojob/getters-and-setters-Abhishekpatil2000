@@ -8,6 +8,11 @@ class Person {
 	get name(){
 		return this._name;
 	}
+	
+	get age(){
+		return this._age;
+	}
+	
 	set grown(age){
 		this._age=age;
 	}
