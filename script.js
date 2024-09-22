@@ -22,21 +22,21 @@ class Person {
 class Student extends Person {
 	
 	study(){
-		return `${this._name} is studying`;
+		return `${this.name} is studying`;
 	}
 }
 
 class Teacher extends Person {
 	teach(){
-		return `${this._name} is teaching`;
+		return `${this.name} is teaching`;
 	}
 }
 
 const person=new Person ("abhi",33);
-console.log(person._name);
-console.log(person._age);
+console.log(person.name);
+console.log(person.age);
 person.grown=20;
-console.log(person._age);
+console.log(person.age);
 
 const student=new Student("roni",20);
 console.log(student.study())
