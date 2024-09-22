@@ -17,13 +17,13 @@ class Person {
 class Student extends Person {
 	
 	study(){
-		return `${this._name} is studying`;
+		return this._name ` is studying`;
 	}
 }
 
 class Teacher extends Person {
 	teach(){
-		return `${this._name} is teaching`;
+		return this._name ` is teaching`;
 	}
 }
 
