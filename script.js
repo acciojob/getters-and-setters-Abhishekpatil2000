@@ -5,10 +5,10 @@ class Person {
 		this.age=age;
 	}
 
-	get identity(){
+	get name(){
 		return  `${this.name}`;
 	}
-	set yOld(age){
+	set age(age){
 		this.age=age;
 	}
 }
@@ -17,13 +17,13 @@ class Person {
 class Student extends Person {
 	
 	study(){
-		return `${this.name} is studying`;
+		return `${this._name} is studying`;
 	}
 }
 
 class Teacher extends Person {
 	teach(){
-		return `${this.name} is teaching`;
+		return `${this._name} is teaching`;
 	}
 }
 
