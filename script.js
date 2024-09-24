@@ -14,7 +14,7 @@ class Person {
 	}
 	
 	set age(newage){
-		this._age=age;
+		this._age=newage;
 	}
 }
 
